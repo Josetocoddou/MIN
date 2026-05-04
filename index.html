@@ -22,7 +22,7 @@ body{background:#000;color:#fff;font-family:var(--fb);overflow-x:hidden}
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:22px 64px;border-bottom:1px solid var(--border);backdrop-filter:blur(24px);background:rgba(0,0,0,.88)}
 .nav-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
-.nav-logo{height:32px;width:auto;flex-shrink:0}
+.nav-logo{height:38px;width:auto;flex-shrink:0;border-radius:8px}
 .nav-links{display:flex;gap:36px;list-style:none}
 .nav-links a{font-family:var(--fm);font-size:9px;letter-spacing:4px;color:var(--silver);text-decoration:none;text-transform:uppercase;transition:color .25s}
 .nav-links a:hover{color:#fff}
@@ -705,7 +705,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 
 <nav>
   <a href="#" class="nav-brand">
-    <img src="logo-wordmark.png" class="nav-logo" alt="MiN logo">
+    <img src="logo-appicon.png" class="nav-logo" alt="MiN">
   </a>
   <button class="nav-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
   <ul class="nav-links">
@@ -726,7 +726,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
   <div class="hero-glow"></div>
   <p class="hero-eyebrow">PERFORMANCE PLATFORM · 2025</p>
   <h1 class="hero-brand">M<span class="dot">I</span>N</h1>
-  <img src="logo-icon.png" style="height:44px;width:auto;margin-top:40px;opacity:.9;position:relative;z-index:1" alt="MIN">
+  <img src="logo-appicon.png" style="height:52px;width:auto;margin-top:40px;border-radius:12px;position:relative;z-index:1" alt="MIN">
   <p class="hero-tagline">Tu cuerpo ya sabe. MIN lo traduce.</p>
   <div class="hero-pills">
     <span class="pill pill-g">CARBOHIDRATOS</span>
@@ -737,9 +737,9 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 </section>
 
 <!-- VIDEO MARCA -->
-<div id="brand-video" style="position:relative;width:100%;background:#000;line-height:0;overflow:hidden;max-height:520px">
+<div id="brand-video" style="position:relative;width:100%;background:#000;line-height:0;overflow:hidden">
   <video autoplay loop muted playsinline
-         style="width:100%;display:block;object-fit:cover;max-height:520px">
+         style="width:100%;display:block">
     <source src="videos/logo.mp4" type="video/mp4">
   </video>
   <!-- overlay sutil para integrar con el resto -->
