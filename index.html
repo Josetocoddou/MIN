@@ -28,10 +28,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .nav-links a:hover{color:#fff}
 
 /* HERO */
-#hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:140px 60px 100px}
+#hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;position:relative;overflow:hidden;padding:0 60px 100px}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:80px 80px}
 .hero-glow{position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(57,255,20,.06) 0%,transparent 68%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
-.hero-eyebrow{font-family:var(--fm);font-size:10px;letter-spacing:7px;color:var(--silver);margin-bottom:28px;text-align:center;position:relative;z-index:1;animation:fadeUp .8s ease both}
+.hero-eyebrow{font-family:var(--fm);font-size:10px;letter-spacing:7px;color:var(--silver);margin-bottom:0;text-align:center;position:relative;z-index:1;animation:fadeUp .8s ease both}
 .hero-brand{font-family:var(--fd);font-size:clamp(200px,28vw,420px);line-height:.82;letter-spacing:-6px;text-align:center;position:relative;z-index:1;animation:fadeUp .8s .15s ease both}
 .hero-brand .dot{color:var(--green)}
 .hero-tagline{font-family:var(--fb);font-size:clamp(15px,1.6vw,20px);font-weight:300;color:rgba(255,255,255,.38);text-align:center;max-width:580px;margin:28px auto 0;line-height:1.65;position:relative;z-index:1;animation:fadeUp .8s .3s ease both}
@@ -724,8 +724,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 <section id="hero">
   <div class="hero-grid"></div>
   <div class="hero-glow"></div>
+  <img src="logo-icon.png" style="height:clamp(500px,70vw,900px);width:auto;position:relative;z-index:1;border-radius:12px;margin-top:-80px" alt="MIN">
   <p class="hero-eyebrow">PERFORMANCE PLATFORM · 2025</p>
-  <img src="logo-icon.png" style="height:clamp(320px,42vw,600px);width:auto;position:relative;z-index:1;border-radius:12px" alt="MIN">
   <p class="hero-tagline">Tu cuerpo ya sabe. MIN lo traduce.</p>
   <div class="hero-pills">
     <span class="pill pill-g">ENERGY GEL</span>
@@ -1144,8 +1144,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
   <div class="chroma-grid">
     <div class="chroma-panel cp-g" data-chroma="g" data-label="ENERGY GEL">
       <div>
-        <p class="cp-eye">01 · VERDE FLUOR · #39FF14</p>
-        <h3 class="cp-title">CAR<br>BO</h3>
+        <p class="cp-eye">01 · ENERGY GEL · CARBOHIDRATOS</p>
+        <h3 class="cp-title">CARBO</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Glucógeno en tiempo real. Cuando tu reserva energética cae, la pantalla se inunda de verde — reconocimiento periférico instantáneo.</p>
       </div>
@@ -1153,8 +1153,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
     </div>
     <div class="chroma-panel cp-p" data-chroma="p" data-label="TRAINING GEL">
       <div>
-        <p class="cp-eye">02 · FUCSIA FLUOR · #FF006E</p>
-        <h3 class="cp-title">ELE<br>CTR</h3>
+        <p class="cp-eye">02 · TRAINING GEL · ELECTROLITOS</p>
+        <h3 class="cp-title">ELECTR</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Desequilibrio electrolítico. Sudoración acumulada activa la alerta de hidratación antes de que sientas sed.</p>
       </div>
@@ -1162,8 +1162,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
     </div>
     <div class="chroma-panel cp-y" data-chroma="y" data-label="PR GEL">
       <div>
-        <p class="cp-eye">03 · AMARILLO · #FFB300</p>
-        <h3 class="cp-title">CAF<br>EÍN</h3>
+        <p class="cp-eye">03 · PR GEL · CAFEÍNA</p>
+        <h3 class="cp-title">CAFEÍN</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Activación de sprint. El algoritmo detecta zona de alta intensidad y activa el protocolo de cafeína en el momento exacto.</p>
       </div>
