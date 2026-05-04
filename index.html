@@ -781,6 +781,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 <section id="ecosystem" class="section">
   <p class="section-eyebrow">02 — Ecosystem</p>
   <h2 class="section-title">TODOS<br>TUS<br>RELOJES</h2>
+  <p style="font-family:var(--fb);font-size:clamp(13px,1.4vw,17px);color:rgba(255,255,255,.38);max-width:560px;line-height:1.7;margin-bottom:64px">5 ecosistemas integrados nativamente. Apple, Garmin, Samsung, Huawei y Amazfit concentran el <strong style="color:rgba(255,255,255,.75)">87% del mercado wearable deportivo en Latinoamérica</strong> — MIN corre en todos sin fricción.</p>
   <div class="watches-row">
 
     <!-- Apple Watch -->
@@ -790,7 +791,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
         <div class="w-case">
           <div class="w-screen">
             <span class="w-screen-lbl">MIN</span>
-            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">ENERGY/span></div>
+            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">GLUCOSA</span></div>
           </div>
         </div>
         <div class="w-band-b"></div>
@@ -811,7 +812,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
           <div class="w-btn-l"></div>
           <div class="w-screen">
             <span class="w-screen-lbl">MIN</span>
-            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">TRAIN/span></div>
+            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">SALES</span></div>
           </div>
         </div>
         <div class="w-band-b"></div>
@@ -830,7 +831,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
         <div class="w-case">
           <div class="w-screen">
             <span class="w-screen-lbl">MIN</span>
-            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">PR/span></div>
+            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">CAFEÍNA</span></div>
           </div>
         </div>
         <div class="w-band-b"></div>
@@ -849,7 +850,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
         <div class="w-case">
           <div class="w-screen">
             <span class="w-screen-lbl">MIN</span>
-            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">ENERGY/span></div>
+            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">GLUCOSA</span></div>
           </div>
         </div>
         <div class="w-band-b"></div>
@@ -868,7 +869,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
         <div class="w-case">
           <div class="w-screen">
             <span class="w-screen-lbl">MIN</span>
-            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">TRAIN/span></div>
+            <div class="w-active"><span class="w-active-icon">◆</span><span class="w-active-lbl">SALES</span></div>
           </div>
         </div>
         <div class="w-band-b"></div>
@@ -881,7 +882,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
     </div>
 
   </div>
-  <p class="watches-hint">HOVER PARA VER LA INUNDACIÓN CROMÁTICA · CICLA ENTRE LOS 3 GELES</p>
+  <p class="watches-hint">HOVER · VER ALERTA EN VIVO</p>
 </section>
 
 <div class="section-border"></div>
@@ -1228,9 +1229,9 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 // ── WATCH COLOR CYCLING ──────────────────────────────────────────
 (function(){
   const COLORS = [
-    { cls:'flood-g', lbl:'ENERGY'  },
-    { cls:'flood-p', lbl:'TRAIN' },
-    { cls:'flood-y', lbl:'PR GEL' },
+    { cls:'flood-g', lbl:'GLUCOSA'  },
+    { cls:'flood-p', lbl:'SALES' },
+    { cls:'flood-y', lbl:'CAFEÍNA' },
   ];
 
   document.querySelectorAll('.watch-card').forEach((card, i) => {
