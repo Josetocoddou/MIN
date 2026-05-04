@@ -614,8 +614,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
   .nav-toggle{display:flex}
 
   /* HERO */
-  #hero{padding:110px 24px 80px}
-  .hero-brand{font-size:clamp(80px,20vw,180px);letter-spacing:-2px}
+  #hero{padding:0 24px 80px}
+  #hero img[alt="MIN"]{height:clamp(260px,72vw,420px)}
   .hero-tagline{font-size:15px}
   .hero-pills{flex-wrap:wrap;justify-content:center;gap:8px}
 
@@ -699,7 +699,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
 
 /* ── MOBILE PEQUEÑO 430px ─────────────────── */
 @media(max-width:430px){
-  .hero-brand{font-size:clamp(72px,19vw,140px)}
+  #hero img[alt="MIN"]{height:clamp(220px,68vw,360px)}
   .section-title{font-size:clamp(44px,13vw,80px)}
   .tier-price{font-size:52px}
   .cp-title{font-size:clamp(48px,13vw,80px)}
@@ -1110,7 +1110,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
   <div class="chroma-grid">
     <div class="chroma-panel cp-g" data-chroma="g" data-label="ENERGY GEL">
       <div>
-        <p class="cp-eye">01 · ENERGY GEL · CARBOHIDRATOS</p>
+        <p class="cp-eye">01 · GLUCÓGENO</p>
         <h3 class="cp-title">GLUCOSA</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Glucógeno en tiempo real. Cuando tu reserva energética cae, la pantalla se inunda de verde — reconocimiento periférico instantáneo.</p>
@@ -1119,8 +1119,8 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
     </div>
     <div class="chroma-panel cp-p" data-chroma="p" data-label="TRAINING GEL">
       <div>
-        <p class="cp-eye">02 · TRAINING GEL · ELECTROLITOS</p>
-        <h3 class="cp-title">SODIO</h3>
+        <p class="cp-eye">02 · ELECTROLITOS</p>
+        <h3 class="cp-title">SALES</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Desequilibrio electrolítico. Sudoración acumulada activa la alerta de hidratación antes de que sientas sed.</p>
       </div>
@@ -1128,7 +1128,7 @@ footer{padding:56px 64px;border-top:1px solid var(--border);display:flex;align-i
     </div>
     <div class="chroma-panel cp-y" data-chroma="y" data-label="PR GEL">
       <div>
-        <p class="cp-eye">03 · PR GEL · CAFEÍNA</p>
+        <p class="cp-eye">03 · CAFEÍNA</p>
         <h3 class="cp-title">CAFEÍNA</h3>
         <div class="cp-rule"></div>
         <p class="cp-desc">Activación de sprint. El algoritmo detecta zona de alta intensidad y activa el protocolo de cafeína en el momento exacto.</p>
